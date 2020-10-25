@@ -1,0 +1,11 @@
+*.dll
+FirstWeb/obj/Debug/
+FirstWeb/bin/Debug/netcoreapp3.1/FirstWeb.deps.json
+FirstWeb/bin/Debug/
+.vs/FirstWeb/DesignTimeBuild/.dtbcache.v2
+FirstWeb/obj/FirstWeb.csproj.nuget.dgspec.json
+FirstWeb/obj/FirstWeb.csproj.nuget.g.props
+FirstWeb/obj/project.assets.json
+*.cache
+.vs/FirstWeb/v16/.suo
+FirstWeb/FirstWeb.csproj.user
