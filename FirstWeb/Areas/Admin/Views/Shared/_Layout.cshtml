@@ -24,11 +24,14 @@
         <div id="content">
             @Html.Partial("_TopbarPartial")
             @RenderBody()
+            @Html.Partial("_Footer.cshtml")
         </div>
+        <!-- End of Main Content -->
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/startbootstrap-sb-admin-2/js/sb-admin-2.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
         @RenderSection("Scripts", required: false)
-     </div>
+    </div>
+    <!-- End of Page Wrapper -->
 </body>
 </html>
