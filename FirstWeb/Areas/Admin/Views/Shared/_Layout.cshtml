@@ -19,12 +19,12 @@
 <body id="page-top">
     <!-- Page Wrapper -->
     <div id="wrapper">
-        @Html.Partial("_SidebarPartial")
+        <partial name="_SidebarPartial"/>
         <!-- Main Content -->
         <div id="content">
-            @Html.Partial("_TopbarPartial")
+            <partial name="_TopbarPartial"/>
             @RenderBody()
-            @Html.Partial("_Footer.cshtml")
+            <partial name="_Footer"/>
         </div>
         <!-- End of Main Content -->
     </div>
